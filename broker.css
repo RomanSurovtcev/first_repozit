@@ -284,20 +284,21 @@
   justify-content: space-between;
   align-items: center;
   color: var(--white-font);
-  margin: calc(var(--size-base)*9.25) 0 0 0;
+  margin-top: calc(var(--size-base)*9.25);
 
 
 }
 
 .nav__link {
   color: var( --white-font);
+  text-decoration: none;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+  line-height: 1.22em;
 
   font-family: 'montserrat';
   font-weight: 500;
@@ -305,7 +306,7 @@
   font-size: 3.25rem;
 
   column-gap: calc(var(--size-base)*6.5);
-  padding: calc(var(--size-base)*2.5);
+  /* padding: calc(var(--size-base)*2.5); */
 
 }
 
@@ -331,6 +332,45 @@
 .first-display__content {
   display: flex;
   flex-direction: column;
+}
+
+.title_h1 {
+  font-family: 'montserrat';
+  font-weight: 700;
+  height: calc(var(--size-base)*36.75);
+  width: calc(var(--size-base)*110);
+  font-size: 10rem;
+  line-height: 1.22em;
+  margin-top: calc(var(--size-base)*32.75);
+}
+
+.first-display__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  height: calc(var(--size-base)*12.5);
+  width: calc(var(--size-base)*96.25);
+  font-size: 3.75rem;
+  line-height: 1.67em;
+  margin-top: calc(var(--size-base)*8);
+}
+
+.btn_prima {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 212px;
+  color: var( --white-font);
+  font-family: 'montserrat';
+  font-weight: 500;
+  line-height: 1.67em;
+
+  font-size: 3.75rem;
+
+  border-radius: 10px;
+  background-image: linear-gradient(var(--grad-1), var(--grad-2));
+  margin-top: calc(var(--size-base)*14.25)
+
 }
 
 .pass-income {
