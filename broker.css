@@ -207,4 +207,40 @@
    }
  }
 
- 
+ @font-face {
+  font-family: 'montserrat';
+  font-weight: 700;
+  src: url(./fonts/static/Montserrat-Bold.ttf);
+ }
+
+ @font-face {
+  font-family: 'montserrat';
+  font-weight: 600;
+  src: url(./fonts/static/Montserrat-SemiBold.ttf);
+ }
+
+ @font-face {
+  font-family: 'montserrat';
+  font-weight: 400;
+  src: url(./fonts/static/Montserrat-Regular.ttf);
+ }
+
+ :root {
+  --white: hsla(0, 0%, 86%, 1);
+  --violet: hsla(268, 64%, 41%, 1);
+  --yellow: hsla(28, 87%, 62%, 1);
+  --glass: hsla(0, 0%, 100%, 0.04);
+  --green-light: hsla(175, 100%, 72%, 1);
+  --green: hsla(145, 63%, 42%, 1);
+  --dark: hsla(215, 28%, 20%, 1);
+  --red: hsla(359, 97%, 64%, 1);
+  --blue: hsla(210, 93%, 57%, 1);
+  --white-font: hsla(0, 0%, 100%, 1);
+  --linear-gradient__1: (hsla(210, 93%, 57%, 1), hsla(184, 95%, 41%, 1));
+  --linear-gradient__2: (hsla(256, 93%, 57%, 1), hsla(184, 95%, 41%, 1));
+  --linear-gradient__3: (hsla(210, 93%, 57%, 1), hsla(219, 100%, 79%, 1));
+  --linear-gradient__4: (hsla(272, 84%, 42%, 1), hsla(256, 53%, 62%, 1));
+  --linear-gradient__5: (hsla(191, 100%, 75%, 1), hsla(209, 100%, 61%, 1));
+  --linear-gradient__icon: (hsla(198, 100%, 75%, 1), hsla(264, 89%, 68%, 1));
+
+ }
