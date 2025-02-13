@@ -289,11 +289,15 @@
 
 }
 
+.nav__link {
+  color: var( --white-font);
+}
+
 .nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-
+  
 
   font-family: 'montserrat';
   font-weight: 500;
@@ -312,7 +316,7 @@
   justify-content: center;
   height: 37px;
   width: 103px;
-
+  color: var( --white-font);
   font-family: 'montserrat';
   font-weight: 500;
 
