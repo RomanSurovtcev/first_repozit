@@ -242,5 +242,95 @@
   --linear-gradient__4: (hsla(272, 84%, 42%, 1), hsla(256, 53%, 62%, 1));
   --linear-gradient__5: (hsla(191, 100%, 75%, 1), hsla(209, 100%, 61%, 1));
   --linear-gradient__icon: (hsla(198, 100%, 75%, 1), hsla(264, 89%, 68%, 1));
-
+  --size-base: 4px;
+  --content-width-max: 1220px;
  }
+
+ html {
+  font-size: 4px;
+ }
+
+ body {
+  font-size: 4rem;
+  background-image: url(./picture/background.jpg);
+  background-position: 0 0;
+ }
+
+ 
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.page__content {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: var(--content-width-max);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: calc(var(--size-base)*9.25) 0 0 0;
+
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-family: 'montserrat';
+  font-weight: 500;
+  
+  font-size: 3.25rem;
+
+  column-gap: calc(var(--size-base)*6.5);
+  padding: calc(var(--size-base)*2.5);
+
+}
+
+.header__actions {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.first-display__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.pass-income {
+  display: flex;
+  flex-direction: column;
+}
+
+.pass-income__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.publ-trade {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.tg-trade {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
