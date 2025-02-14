@@ -257,8 +257,8 @@
 
  body {
   font-size: 4rem;
-  background-image: url(./picture/background.jpg);
-  /* background-color: black; */
+  /* background-image: url(./picture/background.jpg); */
+  background-color: black;
   background-position: 0 0;
   color: var(--white-font);
  }
@@ -412,6 +412,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   margin-top: calc(var(--size-base)*30.5);
 
   box-shadow: inset 0 1px 2px hsla(0, 18%, 92%, 0.6);
@@ -430,7 +431,7 @@
   margin-top: calc(var(--size-base)*24.75);
 }
 
-.pass-income__list {
+.pass-income__descr {
   font-family: 'montserrat';
   font-weight: 400;
   height: calc(var(--size-base)*6.75);
@@ -438,8 +439,98 @@
   font-size: 4rem;
   line-height: 1.68em;
   margin-top: calc(var(--size-base)*2.75);
+}
+
+/* .pass-income__list {
+
+} */
+
+.card {
+  display: flex;
+  flex-direction: row-reverse;
+  /* height: calc(var(--size-base)*73.25);
+  width: calc(var(--size-base)*252); */
+  /* justify-content: space-between; */
+  /* align-items: end; */
+}
+
+.card_direction_reverse {
+  display: flex;
+  flex-direction: row;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-family: 'montserrat';
+  font-weight: 600;
+  height: calc(var(--size-base)*17);
+  width: calc(var(--size-base)*137.75);
+  font-size: 6.5rem;
+  line-height: 1.3em;
+  margin-top: calc(var(--size-base)*35.75);
+  margin-left: calc(var(--size-base)*28.75);
+}
+
+.card-reverse__content {
   
 }
+
+.card-reverse__title {
+  font-family: 'montserrat';
+  font-weight: 600;
+  height: calc(var(--size-base)*25.5);
+  width: calc(var(--size-base)*156.5);
+  font-size: 6.5rem;
+  line-height: 1.3em;
+  margin-top: calc(var(--size-base)*16);
+}
+
+.card-reverse__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  height: calc(var(--size-base)*27);
+  width: calc(var(--size-base)*156.5);
+  font-size: 4rem;
+  line-height: 1.7em;
+  margin-top: calc(var(--size-base)*13);
+  /* margin-right: calc(var(--size-base)*13); */
+}
+
+.card__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  height: calc(var(--size-base)*13.5);
+  width: calc(var(--size-base)*148.75);
+  font-size: 4rem;
+  line-height: 1.7em;
+  margin-top: calc(var(--size-base)*13);
+  margin-left: calc(var(--size-base)*28.75);
+}
+
+.card-one__image {
+  width: 279px;
+  height: 279px;
+  margin-top: calc(var(--size-base)*24.5);
+  /* margin-left: calc(var(--size-base)*(-7.5)); */
+  position: relative;
+  left: -50px;
+}
+
+.card-reverse__title {
+  font-family: 'montserrat';
+  font-weight: 600;
+  height: calc(var(--size-base)*25.5);
+  width: calc(var(--size-base)*156.5);
+  font-size: 6.5rem;
+  line-height: 1.3em;
+  margin-top: calc(var(--size-base)*19);
+  /* margin-left: calc(var(--size-base)*28.75); */
+}
+
 
 .publ-trade {
   display: flex;
