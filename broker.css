@@ -472,12 +472,32 @@
   font-size: 6.5rem;
   line-height: 1.3em;
   margin-top: calc(var(--size-base)*35.75);
-  margin-left: calc(var(--size-base)*28.75);
+  margin-left: calc(var(--size-base)*24);
 }
 
-.card-reverse__content {
-  
+.card__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  height: calc(var(--size-base)*13.5);
+  width: calc(var(--size-base)*148.75);
+  font-size: 4rem;
+  line-height: 1.7em;
+  margin-top: calc(var(--size-base)*13);
+  margin-left: calc(var(--size-base)*24);
 }
+
+.card-one__image {
+  width: 279px;
+  height: 279px;
+  margin-top: calc(var(--size-base)*24.5);
+  /* margin-left: calc(var(--size-base)*(-7.5)); */
+  position: relative;
+  left: -50px;
+}
+
+/* .card-reverse__content {
+  
+} */
 
 .card-reverse__title {
   font-family: 'montserrat';
@@ -486,8 +506,10 @@
   width: calc(var(--size-base)*156.5);
   font-size: 6.5rem;
   line-height: 1.3em;
-  margin-top: calc(var(--size-base)*16);
+  margin-top: calc(var(--size-base)*19);
+  /* margin-left: calc(var(--size-base)*28.75); */
 }
+
 
 .card-reverse__descr {
   font-family: 'montserrat';
@@ -500,36 +522,14 @@
   /* margin-right: calc(var(--size-base)*13); */
 }
 
-.card__descr {
-  font-family: 'montserrat';
-  font-weight: 400;
-  height: calc(var(--size-base)*13.5);
-  width: calc(var(--size-base)*148.75);
-  font-size: 4rem;
-  line-height: 1.7em;
-  margin-top: calc(var(--size-base)*13);
-  margin-left: calc(var(--size-base)*28.75);
-}
-
-.card-one__image {
+.card-two__image {
   width: 279px;
   height: 279px;
-  margin-top: calc(var(--size-base)*24.5);
-  /* margin-left: calc(var(--size-base)*(-7.5)); */
+  margin-top: calc(var(--size-base)*18.75);
   position: relative;
-  left: -50px;
+  left: 90px;
 }
 
-.card-reverse__title {
-  font-family: 'montserrat';
-  font-weight: 600;
-  height: calc(var(--size-base)*25.5);
-  width: calc(var(--size-base)*156.5);
-  font-size: 6.5rem;
-  line-height: 1.3em;
-  margin-top: calc(var(--size-base)*19);
-  /* margin-left: calc(var(--size-base)*28.75); */
-}
 
 
 .publ-trade {
