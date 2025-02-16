@@ -238,6 +238,7 @@
   --dark: hsla(215, 28%, 20%, 1);
   --red: hsla(359, 97%, 64%, 1);
   --blue: hsla(210, 93%, 57%, 1);
+  --zalivka: hsla(225, 68%, 11%, 0.6);
   --white-font: hsla(0, 0%, 100%, 1);
   --grad-1:hsla(210, 93%, 57%, 1);
   --grad-2:hsla(184, 95%, 41%, 1);
@@ -258,7 +259,8 @@
  body {
   font-size: 4rem;
   /* background-image: url(./picture/background.jpg); */
-  background-color: black;
+  /* background-color: black; */
+  background-color: gray;
   background-position: 0 0;
   color: var(--white-font);
  }
@@ -435,7 +437,7 @@
   font-family: 'montserrat';
   font-weight: 400;
   height: calc(var(--size-base)*6.75);
-  width: calc(var(--size-base)*239);
+  /* width: calc(var(--size-base)*239); */
   font-size: 4rem;
   line-height: 1.68em;
   margin-top: calc(var(--size-base)*2.75);
@@ -492,12 +494,8 @@
   margin-top: calc(var(--size-base)*24.5);
   /* margin-left: calc(var(--size-base)*(-7.5)); */
   position: relative;
-  left: -50px;
+  left: -20px;
 }
-
-/* .card-reverse__content {
-  
-} */
 
 .card-reverse__title {
   font-family: 'montserrat';
@@ -530,7 +528,106 @@
   left: 90px;
 }
 
+.card-how__title {
+  font-family: 'montserrat';
+  font-weight: 600;
+  height: calc(var(--size-base)*8.5);
+  width: calc(var(--size-base)*58.5);
+  font-size: 6.5rem;
+  line-height: 1.3em;
+  margin-top: calc(var(--size-base)*20);
+}
 
+.card-how__work {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: calc(var(--size-base)*3.25);
+  margin-top: calc(var(--size-base)*16);
+}
+
+.how__work {
+  width: 299px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--zalivka);
+  border-radius: 20px;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.work__card {
+  font-family: 'montserrat';
+  font-weight: 600;
+  /* height: calc(var(--size-base)*8.5); */
+  /* width: calc(var(--size-base)*58.5); */
+  font-size: 4rem;
+  line-height: 1.4em;
+  margin-top: calc(var(--size-base)*11.5);
+  text-align: center;
+}
+
+.work-two__card {
+  font-family: 'montserrat';
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.4em;
+  margin-top: calc(var(--size-base)*8.75);
+  text-align: center;
+  width: 261px;
+  height: 44px;
+}
+
+.work-card__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1.4em;
+  margin-top: calc(var(--size-base)*6.25);
+  width: 260px;
+  height: 40px;
+  text-align: center;
+}
+
+.work-cardtwo__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1.4em;
+  margin-top: calc(var(--size-base)*3.5);
+  width: 260px;
+  height: 40px;
+  text-align: center;
+}
+
+.icona {
+  width: 36px;
+  height: 36px;
+  margin-top: calc(var(--size-base)*14.75);
+}
+
+.strela {
+  width: 32px;
+  height: 32px;
+}
+
+.card-two__title {
+  font-family: 'montserrat';
+  font-weight: 600;
+  height: calc(var(--size-base)*8.5);
+  width: calc(var(--size-base)*170);
+  font-size: 6.5rem;
+  line-height: 1.3em;
+  margin-top: calc(var(--size-base)*20);
+  text-align: center;
+}
+
+.video-trade {
+  margin-top: calc(var(--size-base)*15.7);
+  border-radius: 20px;
+  margin-bottom: calc(var(--size-base)*25);
+}
 
 .publ-trade {
   display: flex;
