@@ -664,7 +664,32 @@
   text-align: center;
 }
 
+.card-three__image {
+  width: 279px;
+  height: 279px;
+  margin-top: calc(var(--size-base)*20.1);
+  position: relative;
+  left: -20px;
+}
 
+.card-for__image {
+  width: 279px;
+  height: 279px;
+  margin-top: calc(var(--size-base)*17.75);
+  position: relative;
+  left: 90px;
+}
+
+.card-publ__title {
+  font-family: 'montserrat';
+  font-weight: 600;
+  height: calc(var(--size-base)*25.5);
+  width: calc(var(--size-base)*137.75);
+  font-size: 6.5rem;
+  line-height: 1.3em;
+  margin-top: calc(var(--size-base)*20.5);
+  margin-left: calc(var(--size-base)*22,5);
+}
 
 
 
