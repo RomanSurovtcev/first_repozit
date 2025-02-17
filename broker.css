@@ -260,15 +260,20 @@
   font-size: 4rem;
   /* background-image: url(./svg/BG\ and\ elements.svg); */
   /* background-color: black; */
-  background-color: gray;
+  /* background-color: gray; */
+  background-color: rgb(88, 86, 84);
   background-position: 0 0;
   color: var(--white-font);
+  /* display: flex;
+  flex-direction: column;
+  height: 100vh; */
  }
 
  
 .page {
   display: flex;
   flex-direction: column;
+  /* flex-shrink: 1; */
 
 }
 
@@ -287,7 +292,7 @@
   align-items: center;
   color: var(--white-font);
   margin-top: calc(var(--size-base)*9.25);
-
+  /* flex-shrink: 0; */
 
 }
 
@@ -372,7 +377,6 @@
   border-radius: 15px;
   background-image: linear-gradient(var(--grad-1), var(--grad-2));
   margin-top: calc(var(--size-base)*14.25)
-
 }
 
 .first-display {
@@ -642,6 +646,10 @@
   z-index: 1;
 }
 
+/* .pass-income__list {
+
+} */
+
 .title-two_h1 {
   font-family: 'montserrat';
   font-weight: 700;
@@ -669,7 +677,7 @@
   height: 279px;
   margin-top: calc(var(--size-base)*20.1);
   position: relative;
-  left: -20px;
+  /* left: -30px; */
 }
 
 .card-for__image {
@@ -688,19 +696,175 @@
   font-size: 6.5rem;
   line-height: 1.3em;
   margin-top: calc(var(--size-base)*20.5);
-  margin-left: calc(var(--size-base)*22,5);
+  margin-left: calc(var(--size-base)*38);
 }
 
+.card-publ__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  height: calc(var(--size-base)*27);
+  width: calc(var(--size-base)*148.75);
+  font-size: 4rem;
+  line-height: 1.7em;
+  margin-top: calc(var(--size-base)*12.25);
+  margin-left: calc(var(--size-base)*38);
+}
 
+.card-reversepupl__title {
+  font-family: 'montserrat';
+  font-weight: 600;
+  height: calc(var(--size-base)*17);
+  width: calc(var(--size-base)*156.5);
+  font-size: 6.5rem;
+  line-height: 1.3em;
+  margin-top: calc(var(--size-base)*26.25);
+  /* margin-left: calc(var(--size-base)*26); */
+}
+
+.card-reversepupl__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  height: calc(var(--size-base)*27);
+  width: calc(var(--size-base)*156.5);
+  font-size: 4rem;
+  line-height: 1.7em;
+  margin-top: calc(var(--size-base)*13);
+}
+
+.card-howtwo__title {
+  font-family: 'montserrat';
+  font-weight: 600;
+  height: calc(var(--size-base)*8.5);
+  width: calc(var(--size-base)*58.5);
+  font-size: 6.5rem;
+  line-height: 1.3em;
+  margin-top: calc(var(--size-base)*21.75);
+}
 
 .tg-trade {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(var(--size-base)*246.25);
+  width: calc(var(--size-base)*293.5);
+  margin-left: calc(var(--size-base)*11);
 }
+
+.title-tg {
+  font-family: 'montserrat';
+  font-weight: 700;
+  height: calc(var(--size-base)*16.75);
+  width: calc(var(--size-base)*191.5);
+  font-size: 10rem;
+  line-height: 1.22em;
+  margin-top: calc(var(--size-base)*30);
+  margin-bottom: calc(var(--size-base)*26);
+  /* margin-left: calc(var(--size-base)*56.75); */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.pass-tg__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  height: calc(var(--size-base)*12.5);
+  width: calc(var(--size-base)*239);
+  font-size: 4rem;
+  line-height: 1.7em;
+  margin-top: calc(var(--size-base)*2.75);
+  text-align: center;
+}
+
+.tg-trade__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: calc(var(--size-base)*10.5);
+  gap: 50px;
+  /* margin-bottom: calc(var(--size-base)*10); */
+}
+
+.tg-trade__content {
+  flex: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 50px;
+}
+
+.tg-img {
+  height: calc(var(--size-base)*144.25);
+  width: calc(var(--size-base)*110);
+}
+
+.tg-trade__article {
+  width: 316px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsla(214, 33%, 18%, 1);
+  border-radius: 20px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.icona-two {
+  width: 40px;
+  height: 40px;
+  margin-top: calc(var(--size-base)*13.5);
+}
+
+.tg-trade__card {
+  font-family: 'montserrat';
+  font-weight: 600;
+  height: calc(var(--size-base)*6.5);
+  font-size: 5rem;
+  line-height: 1.3em;
+  margin-top: calc(var(--size-base)*10.5);
+  text-align: center;
+}
+
+.tg-trade__descr {
+  font-family: 'montserrat';
+  font-weight: 400;
+  width: calc(var(--size-base)*67);
+  font-size: 4rem;
+  line-height: 1.7em;
+  margin-top: calc(var(--size-base)*5.75);
+  text-align: center;
+}
+
+.btn-tg__trade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 365px;
+  color: var( --white-font);
+  font-family: 'montserrat';
+  font-weight: 500;
+  line-height: 1.67em;
+
+  font-size: 3.75rem;
+
+  border-radius: 15px;
+  background-image: linear-gradient(var(--grad-1), var(--grad-2));
+  margin-top: calc(var(--size-base)*12.5)
+}
+
+
+
+
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* position: absolute; */
+  width: 100%;
+  height: calc(var(--size-base)*52.75);
+  /* bottom: 0;
+  flex-shrink: 0; */
 }
