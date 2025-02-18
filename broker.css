@@ -264,10 +264,10 @@
   flex-direction: column;
   font-size: 4rem;
   /* margin-bottom: calc(var(--size-base)*52.75); */
-  /* background-image: url(./svg/BG\ and\ elements.svg); */
+  background-image: url(./svg/BG\ and\ elements.svg);
   /* background-color: black; */
   /* background-color: gray; */
-  background-color: rgb(88, 86, 84);
+  /* background-color: rgb(88, 86, 84); */
   background-position: 0 0;
   color: var(--white-font);
   height: 100%;
