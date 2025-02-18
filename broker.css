@@ -242,6 +242,9 @@
   --white-font: hsla(0, 0%, 100%, 1);
   --grad-1:hsla(210, 93%, 57%, 1);
   --grad-2:hsla(184, 95%, 41%, 1);
+  --grad-3:hsla(210, 97%, 50%, 1);
+  --grad-4:hsla(184, 100%, 53%, 1);
+
   /* --linear-gradient__1: (hsla(210, 93%, 57%, 1), hsla(184, 95%, 41%, 1));
   --linear-gradient__2: (hsla(256, 93%, 57%, 1), hsla(184, 95%, 41%, 1));
   --linear-gradient__3: (hsla(210, 93%, 57%, 1), hsla(219, 100%, 79%, 1));
@@ -345,7 +348,10 @@
 
   border-radius: 10px;
   background-image: linear-gradient(var(--grad-1), var(--grad-2));
+}
 
+.btn_primary:active {
+  background-image: linear-gradient(var(--grad-3), var(--grad-4));
 }
 
 
@@ -390,6 +396,10 @@
   border-radius: 15px;
   background-image: linear-gradient(var(--grad-1), var(--grad-2));
   margin-top: calc(var(--size-base)*14.25)
+}
+
+.btn_prima:active {
+  background-image: linear-gradient(var(--grad-3), var(--grad-4));
 }
 
 .first-display {
@@ -874,6 +884,10 @@
   background-image: linear-gradient(var(--grad-1), var(--grad-2));
   /* margin-top: calc(var(--size-base)*12.5); */
   /* margin-left: calc(var(--size-base)*120); */
+}
+
+.btn-tg__trade:active {
+  background-image: linear-gradient(var(--grad-3), var(--grad-4));
 }
 
 .footer__actions {
