@@ -146,6 +146,11 @@
   background-image: linear-gradient(var(--grad-3), var(--grad-4));
 }
 
+.first-display {
+  height: calc(var(--size-base)*116.75);
+  width: calc(var(--size-base)*110);
+}
+
 
 .first-display__content {
   display: flex;
@@ -224,9 +229,9 @@
 }
 
 .first-display__bg {
-  position: absolute;
-  top: calc(var(--size-base)*85.5);
-  left: calc(var(--size-base)*176.25);
+  position: relative;
+  top: calc(var(--size-base)*65);
+  left: calc(var(--size-base)*(-75));
 }
 
 .pass-income {
@@ -704,6 +709,7 @@
   height: calc(var(--size-base)*3.8);
   width: calc(var(--size-base)*36.75);
   margin-top: calc(var(--size-base)*18.75);
+  margin-left: calc(var(--size-base)*87.75);
 }
 
 .logo__footer {
@@ -714,6 +720,7 @@
   line-height: 1.2em;
   margin-top: calc(var(--size-base)*3.94);
   text-align: left;
+  margin-left: calc(var(--size-base)*87.75);
 }
 
 .nav-foot {
@@ -723,7 +730,8 @@
   flex-wrap: wrap;
   justify-content: end;
   margin-top: calc(var(--size-base)*18.75);
-  margin-left: calc(var(--size-base)*60.75);
+  margin-left: calc(var(--size-base)*68.75);
+  margin-right: calc(var(--size-base)*87.5);
   /* align-items: center; */
   line-height: 1.22em;
 
