@@ -1,24 +1,23 @@
 
-
  @font-face {
   font-family: 'montserrat';
   font-weight: 700;
   color: hsla(0, 0%, 100%, 1);
-  src: url(./fonts/static/Montserrat-Bold.ttf);
+  src: url(./assets/fonts/static/Montserrat-Bold.ttf);
  }
 
  @font-face {
   font-family: 'montserrat';
   font-weight: 600;
   color: hsla(0, 0%, 100%, 1);
-  src: url(./fonts/static/Montserrat-SemiBold.ttf);
+  src: url(./assets/fonts/static/Montserrat-SemiBold.ttf);
  }
 
  @font-face {
   font-family: 'montserrat';
   font-weight: 400;
   color: hsla(0, 0%, 100%, 1);
-  src: url(./fonts/static/Montserrat-Regular.ttf);
+  src: url(./assets/fonts/static/Montserrat-Regular.ttf);
  }
 
  :root {
@@ -57,7 +56,7 @@
   flex-direction: column;
   font-size: 4rem;
   /* margin-bottom: calc(var(--size-base)*52.75); */
-  background-image: url(./svg/BG\ and\ elements.svg);
+  background-image: url(./assets/svg/BG\ and\ elements.svg);
   /* background-color: black; */
   /* background-color: gray; */
   /* background-color: rgb(88, 86, 84); */
