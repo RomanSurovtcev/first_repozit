@@ -89,7 +89,7 @@
   justify-content: space-between;
   align-items: center;
   color: var(--white-font);
-  margin-top: calc(var(--size-base)*9.25);
+  margin-top: calc(var(--size-base)*12.25);
 
 }
 
@@ -738,6 +738,10 @@
   color: var( --white-font);
   text-decoration: none;
 }
+
+/* .tg-btn {
+  z-index: 2;
+} */
 
 /* .header__burger-btn {
   display: none;

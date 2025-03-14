@@ -1,7 +1,7 @@
 @media (max-width: 2560px) {
     .page {
        
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .header__burger-btn {
         display: none;
@@ -10,7 +10,7 @@
 @media (max-width: 1440px) {
     .page {
        
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .header__burger-btn {
         display: none;
@@ -21,7 +21,7 @@
 @media (max-width: 1200px) {
     .page {
        
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .header__burger-btn {
         display: none;
@@ -60,7 +60,22 @@
 
     .title_h1 {
         font-size: 6.75rem;
+        height: calc(var(--size-base)*25.25);
+        width: calc(var(--size-base)*77.5);
+        margin-top: calc(var(--size-base)*21.25);
+        line-height: 100%;
 
+    }
+    .first-display__descr {
+        height: calc(var(--size-base)*23);
+        width: calc(var(--size-base)*72.5);
+        font-size: 3.5rem;
+        line-height: 167%;
+        margin-top: calc(var(--size-base)*6);
+    }
+
+    .btn_prima {
+        margin-top: calc(var(--size-base)*6);
     }
 
     .nav {
@@ -97,11 +112,15 @@
         width: calc(var(--size-base)*6);
         margin-right: calc(var(--size-base)*95);
         /* background-image: url(./assets/svg/Menu.svg); */
-        background: black;
+        background: none;
         z-index: 1;
         border: none;
-        
+        padding: 0; 
     }
+
+    /* .header__burger-btn::after {
+         background-image: url(./assets/svg/Close.svg);
+    } */
 
    
 }
