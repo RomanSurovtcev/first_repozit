@@ -202,9 +202,146 @@
         height: 191px;
         margin-top: calc(var(--size-base)*11);
         /* margin-left: calc(var(--size-base)*(-7.5)); */
-        position: relative;
+        /* position: relative; */
         /* left: -50px; */
     }
+
+    .card-reverse__title {
+        height: calc(var(--size-base)*21.75);
+        width: calc(var(--size-base)*114);
+        font-size: 5.5rem;
+        line-height: 1.3em;
+        margin-top: calc(var(--size-base)*10);
+        /* margin-left: calc(var(--size-base)*28.75); */
+    }
+
+    .card-reverse__descr {
+        height: calc(var(--size-base)*33.75);
+        width: calc(var(--size-base)*114);
+        font-size: 4rem;
+        line-height: 1.7em;
+        margin-top: calc(var(--size-base)*15.5);
+        /* margin-right: calc(var(--size-base)*13); */
+    }
+
+    .card-two__image {
+        width: 191px;
+        height: 191px;
+        margin-top: calc(var(--size-base)*12.5);
+        position: relative;
+        left: 30px;
+    }
+
+    .card-how__title {
+        height: calc(var(--size-base)*8.5);
+        width: calc(var(--size-base)*58.5);
+        font-size: 6.5rem;
+        line-height: 1.3em;
+        margin-top: calc(var(--size-base)*15);
+    }
+
+    .card-how__work {
+        gap: calc(var(--size-base)*0.75);
+    }
+
+    .how__work {
+        width: 201px;
+        height: 279px;
+    }
+
+    .work__card {
+        font-size: 3.75rem;
+    }
+
+    .work-card__descr {
+        font-size: 3.25rem;
+        width: calc(var(--size-base)*45);
+        height: calc(var(--size-base)*9);
+    }
+
+    .work-two__card {
+        font-size: 3.75rem;
+        width: calc(var(--size-base)*45);
+        height: calc(var(--size-base)*10.5);
+    }
+
+    .work-cardtwo__descr {
+        font-size: 3.25rem;
+        margin-top: calc(var(--size-base)*4);
+        width: calc(var(--size-base)*45);
+        height: calc(var(--size-base)*15);
+    }
+
+    .card-two__title {
+        margin-top: calc(var(--size-base)*15);
+    }
+
+    .video-trade {
+        margin-top: calc(var(--size-base)*15.8);
+        margin-bottom: calc(var(--size-base)*15);
+        width: calc(var(--size-base)*170);
+        height: calc(var(--size-base)*98);
+    }
+
+    .publ-trade {
+        margin-top: calc(var(--size-base)*15);
+    }
+
+    .title-two_h1 {
+        height: calc(var(--size-base)*13.5);
+        width: calc(var(--size-base)*95);
+        font-size: 8rem;
+        margin-top: calc(var(--size-base)*15);
+    }
+
+    .passtwo-income__descr {
+        height: calc(var(--size-base)*20.25);
+        width: calc(var(--size-base)*164.5);
+        margin-top: calc(var(--size-base)*3.5);
+    }
+
+    .card-three__image {
+        width: 205px;
+        height: 185px;
+        margin-top: calc(var(--size-base)*8.75);
+        position: relative;
+        left: 200px;
+    }
+
+    .card-for__image {
+        width: 203px;
+        height: 205px;
+        margin-top: calc(var(--size-base)*12.7);
+        /* position: relative;
+        left: 90px; */
+    }
+
+    .card-publ__title {
+        height: calc(var(--size-base)*21.75);
+        width: calc(var(--size-base)*111.5);
+        font-size: 5.5rem;
+        margin-top: calc(var(--size-base)*8.75);
+        margin-left: calc(var(--size-base)*60);
+    }
+
+    .card-publ__descr {
+        height: calc(var(--size-base)*40.5);
+        width: calc(var(--size-base)*110);
+        margin-top: calc(var(--size-base)*16);
+        margin-left: calc(var(--size-base)*60);
+    }
+
+    
+      
+
+      
+      
+
+
+
+
+
+
 
 
 }
