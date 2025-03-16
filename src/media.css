@@ -122,7 +122,91 @@
          background-image: url(./assets/svg/Close.svg);
     } */
 
-   
+    .first-display__pict {
+        font-family: 'montserrat';
+        font-weight: 600;
+        line-height: 1em;
+        font-size: 3rem;
+    }
+      
+    .one {
+        height: calc(var(--size-base)*8.4);
+        width: calc(var(--size-base)*25);
+        margin-top: calc(var(--size-base)*25.75);
+        margin-left: calc(var(--size-base)*2);
+    }
+      
+    .two {
+        height: calc(var(--size-base)*7.5);
+        width: calc(var(--size-base)*24);
+        margin-top: calc(var(--size-base)*27.8);
+        margin-left: calc(var(--size-base)*37.6);
+    }
+    
+    .first-display__bg {
+        position: relative;
+        top: calc(var(--size-base)*35);
+        left: calc(var(--size-base)*(-55));
+        height: calc(var(--size-base)*91);
+        width: calc(var(--size-base)*32.75);
+    }
+    
+    .first-display {
+        height: calc(var(--size-base)*90);
+        width: calc(var(--size-base)*77.5);
+    }
+
+    .pass-income {
+        margin-top: calc(var(--size-base)*13);
+    }
+
+    .title-abzac_h1 {
+        height: calc(var(--size-base)*13.5);
+        width: calc(var(--size-base)*96.5);
+        font-size: 8rem;
+        line-height: 1.67em;
+        margin-top: calc(var(--size-base)*15);
+    }
+    
+    .pass-income__descr {
+        height: calc(var(--size-base)*12);
+        /* width: calc(var(--size-base)*239); */
+        font-size: 4rem;
+        line-height: 1.68em;
+        margin-top: calc(var(--size-base)*3.5);
+        text-align: center;
+    }
+
+    .card__title {
+        height: calc(var(--size-base)*14.5);
+        width: calc(var(--size-base)*114.25);
+        font-size: 5.5rem;
+        line-height: 1.3em;
+        margin-top: calc(var(--size-base)*8.5);
+        margin-right: calc(var(--size-base)*5);
+        margin-left: calc(var(--size-base)*1);
+    }
+
+    .card__descr {
+        height: calc(var(--size-base)*20.25);
+        width: calc(var(--size-base)*114);
+        font-size: 4rem;
+        line-height: 1.7em;
+        margin-top: calc(var(--size-base)*15.5);
+        margin-left: calc(var(--size-base)*1);
+        margin-right: calc(var(--size-base)*5);
+    }
+
+    .card-one__image {
+        width: 191px;
+        height: 191px;
+        margin-top: calc(var(--size-base)*11);
+        /* margin-left: calc(var(--size-base)*(-7.5)); */
+        position: relative;
+        /* left: -50px; */
+    }
+
+
 }
   
 /* @media (max-width: 480px) {

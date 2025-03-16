@@ -253,6 +253,7 @@
   font-size: 4rem;
   line-height: 1.68em;
   margin-top: calc(var(--size-base)*2.75);
+  text-align: center;
 }
 
 /* .pass-income__list {
