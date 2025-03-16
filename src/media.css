@@ -249,6 +249,10 @@
         height: 279px;
     }
 
+    .icona {
+        margin-top: calc(var(--size-base)*14);
+      }
+
     .work__card {
         font-size: 3.75rem;
     }
@@ -312,8 +316,8 @@
         width: 203px;
         height: 205px;
         margin-top: calc(var(--size-base)*12.7);
-        /* position: relative;
-        left: 90px; */
+        position: relative;
+        left: 30px;
     }
 
     .card-publ__title {
@@ -331,8 +335,52 @@
         margin-left: calc(var(--size-base)*60);
     }
 
+    .card-reversepupl__title {
+        height: calc(var(--size-base)*14.5);
+        width: calc(var(--size-base)*114);
+        font-size: 5.5rem;
+        margin-top: calc(var(--size-base)*10);
+        margin-left: calc(var(--size-base)*5);
+    }
+
+    .card-reversepupl__descr {
+        height: calc(var(--size-base)*33.75);
+        width: calc(var(--size-base)*114);
+        margin-top: calc(var(--size-base)*15.5);
+        margin-left: calc(var(--size-base)*5);
+    }
+
+    .card-howtwo__title {
+        margin-top: calc(var(--size-base)*15);
+    }
     
-      
+    .tg-trade {
+        height: calc(var(--size-base)*364);
+        width: calc(var(--size-base)*170.5);
+        margin-left: calc(var(--size-base)*7);
+        margin-bottom: calc(var(--size-base)*52.5);
+    }
+
+    .title-tg {
+        height: calc(var(--size-base)*13.5);
+        width: calc(var(--size-base)*153.25);
+        font-size: 8rem;
+        line-height: 1.67em;
+        margin-top: calc(var(--size-base)*15);
+    }
+
+    .pass-tg__descr {
+        height: calc(var(--size-base)*18.75);
+        width: calc(var(--size-base)*157);
+        font-size: 3.75rem;
+        margin-top: calc(var(--size-base)*2.75);
+    }
+
+    .tg-trade__art {
+        height: calc(var(--size-base)*119);
+        width: calc(var(--size-base)*90.75);
+    }
+
 
       
       
