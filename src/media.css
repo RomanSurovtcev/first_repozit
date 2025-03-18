@@ -448,16 +448,16 @@
     }
 
     .first-display {
-        flex-direction: column;
+        /* flex-direction: column; */
         /* justify-content: start; */
         /* margin: auto; */
         
-        /* display: grid;
-        grid-template-columns: 1fr; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .first-display__content {
-        justify-items: center;
+        /* justify-items: center; */
     }
 
     .title_h1 {
@@ -479,7 +479,6 @@
     }
 
     .btn_prima {
-
         margin-top: calc(var(--size-base)*6);
     }
 
@@ -508,6 +507,7 @@
         width: calc(var(--size-base)*25);
         margin-top: calc(var(--size-base)*25.75);
         margin-left: calc(var(--size-base)*2);
+        margin-bottom: calc(var(--size-base)*200);
     }
         
     .two {
@@ -515,12 +515,13 @@
         width: calc(var(--size-base)*24);
         margin-top: calc(var(--size-base)*27.8);
         margin-left: calc(var(--size-base)*37.6);
+        margin-bottom: calc(var(--size-base)*200);
     }
         
     .first-display__bg {
         position: relative;
-        top: calc(var(--size-base)*35);
-        left: calc(var(--size-base)*(-55));
+        top: calc(var(--size-base)*0);
+        left: calc(var(--size-base)*(-0));
         height: calc(var(--size-base)*91);
         width: calc(var(--size-base)*32.75);
     }
@@ -531,7 +532,7 @@
     }
 
     .pass-income {
-        margin-top: calc(var(--size-base)*13);
+        margin-top: calc(var(--size-base)*200);
     }
 
     .title-abzac_h1 {
