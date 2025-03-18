@@ -115,7 +115,6 @@
 
 .btn_primary {
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   justify-content: center;
   height: 37px;
