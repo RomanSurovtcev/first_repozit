@@ -414,26 +414,40 @@
     }
 
     .footer {
-        display: block;
-        flex-direction: none;
-        justify-content: none;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: none; */
+        justify-content: space-between;
+        align-items: flex-start;
         background-color: hsla(230, 32%, 13%, 1);
         width: 100%;
         height: calc(var(--size-base)*52.75);
     }
 
     .nav-foot {
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+       
         flex-direction: none;
         flex-wrap: none;
-        justify-content: none;
-        margin-top: calc(var(--size-base)*0);
-        margin-left: calc(var(--size-base)*0);
-        margin-right: calc(var(--size-base)*0);
-        column-gap: calc(var(--size-base)*0);
-        row-gap: calc(var(--size-base)*0);
+        justify-content: center;
+        margin-top: calc(var(--size-base)*14);
+        margin-left: calc(var(--size-base)*14.5);
+        margin-right: calc(var(--size-base)*5.5);
+        column-gap: calc(var(--size-base)*29.25);
+        row-gap: calc(var(--size-base)*4.25);
     }
     
+    .nav-foot__link {
+        white-space: nowrap;
+    }
+
+    .adapt {
+        margin-top: calc(var(--size-base)*13.75);
+        grid-column: span 2;
+        position: relative;
+        left: calc(var(--size-base)*(-11));
+    }
 
 
 
