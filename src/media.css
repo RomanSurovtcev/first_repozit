@@ -358,7 +358,7 @@
         height: calc(var(--size-base)*364);
         width: calc(var(--size-base)*170.5);
         margin-left: calc(var(--size-base)*7);
-        margin-bottom: calc(var(--size-base)*52.5);
+        margin-bottom: calc(var(--size-base)*42);
     }
 
     .title-tg {
