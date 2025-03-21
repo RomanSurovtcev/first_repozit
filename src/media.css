@@ -416,10 +416,15 @@
 
 
 @media (max-width: 480px) {
+    body {
+        /* background: linear-gradient(hsla(240, 15%, 10%, 1), hsla(216, 40%, 16%, 0.03)); */
+        background-image: url(./assets/svg/BG_mobile.svg);
+    }
+
     .page {
         margin-left: auto;
         margin-right: auto;
-        overflow: hidden;
+        /* overflow: hidden; */
         width: 400px;
         
     }
@@ -774,7 +779,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        margin-bottom: calc(var(--size-base)*42);
+        margin-bottom: calc(var(--size-base)*18);
     }
 
     .tg-trade__content {
@@ -857,53 +862,56 @@
     }
 
     .footer__logo {
-        margin-top: calc(var(--size-base)*12.5);
-        margin-left: calc(var(--size-base)*5.25);
+        margin-top: calc(var(--size-base)*10.5);
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .logo__footer {
-        width: calc(var(--size-base)*58.75);
+        width: calc(var(--size-base)*88.75);
         height: calc(var(--size-base)*7.5);
+        text-align: center;
         font-size: 3rem;
         line-height: 1em;
         margin-top: calc(var(--size-base)*3.94);
-        margin-bottom: calc(var(--size-base)*25);
-        margin-left: calc(var(--size-base)*5.25);
+        margin-bottom: calc(var(--size-base)*0);
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        height: calc(var(--size-base)*77.5);
         background-color: hsla(230, 32%, 13%, 1);
         width: 100%;
-        height: calc(var(--size-base)*52.75);
     }
 
     .nav-foot {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-       
-        flex-direction: none;
+        display: flex;
         flex-wrap: none;
+        flex-direction: column;
         justify-content: center;
-        margin-top: calc(var(--size-base)*14);
-        margin-left: calc(var(--size-base)*14.5);
-        margin-right: calc(var(--size-base)*5.5);
-        column-gap: calc(var(--size-base)*29.25);
-        row-gap: calc(var(--size-base)*4.25);
+        align-items: center;
+        margin-top: calc(var(--size-base)*6);
+        margin-left: calc(var(--size-base)*0);
+        margin-right: calc(var(--size-base)*0);
+        column-gap: calc(var(--size-base)*0);
+        row-gap: calc(var(--size-base)*3);
     }
     
     .nav-foot__link {
-        white-space: nowrap;
+        text-align: center;
+        white-space: none;
     }
 
     .adapt {
-        margin-top: calc(var(--size-base)*13.75);
+        margin-top: calc(var(--size-base)*3);
         grid-column: span 2;
         position: relative;
-        left: calc(var(--size-base)*(-11));
+        left: calc(var(--size-base)*(0));
+        margin-bottom: calc(var(--size-base)*12);
     }
 
 }
