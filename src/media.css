@@ -675,4 +675,187 @@
         width: calc(var(--size-base)*81.5);
         height: calc(var(--size-base)*47);
     }
+
+    .publ-trade {
+        margin-top: calc(var(--size-base)*13.75);
+    }
+
+    .title-two_h1 {
+        height: calc(var(--size-base)*9.25);
+        width: calc(var(--size-base)*65.25);
+        font-size: 5.5rem;
+        margin-top: calc(var(--size-base)*7.5);
+    }
+
+    .passtwo-income__descr {
+        height: calc(var(--size-base)*25);
+        width: calc(var(--size-base)*87);
+        margin-top: calc(var(--size-base)*2.75);
+        font-size: 3.5rem;
+        line-height: 1.4em;
+    }
+
+    .card-three__image {
+        margin-top: calc(var(--size-base)*7.5);
+        position: relative;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-for__image {
+        margin-top: calc(var(--size-base)*7.5);
+        position: relative;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-publ__title {
+        height: calc(var(--size-base)*24);
+        width: calc(var(--size-base)*81.5);
+        font-size: 4.25rem;
+        margin-top: calc(var(--size-base)*5);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .card-publ__descr {
+        height: calc(var(--size-base)*35);
+        width: calc(var(--size-base)*81.5);
+        margin-top: calc(var(--size-base)*8.5);
+        font-size: 3.5rem;
+        line-height: 1.4em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .card-reversepupl__title {
+        height: calc(var(--size-base)*18);
+        width: calc(var(--size-base)*81.5);
+        font-size: 4.25rem;
+        margin-top: calc(var(--size-base)*5);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .card-reversepupl__descr {
+        height: calc(var(--size-base)*35);
+        width: calc(var(--size-base)*81.5);
+        margin-top: calc(var(--size-base)*8.5);
+        font-size: 3.5rem;
+        line-height: 1.4em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .card-howtwo__title {
+        margin-top: calc(var(--size-base)*7.5);
+        height: calc(var(--size-base)*6.5);
+        width: calc(var(--size-base)*45);
+        font-size: 5rem;
+        line-height: 1.3em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .tg-trade {
+        height: calc(var(--size-base)*364);
+        width: calc(var(--size-base)*170.5);
+        margin-left: calc(var(--size-base)*7);
+        margin-bottom: calc(var(--size-base)*42);
+    }
+
+    .title-tg {
+        height: calc(var(--size-base)*13.5);
+        width: calc(var(--size-base)*153.25);
+        font-size: 8rem;
+        line-height: 1.67em;
+        margin-top: calc(var(--size-base)*15);
+    }
+
+    .pass-tg__descr {
+        height: calc(var(--size-base)*18.75);
+        width: calc(var(--size-base)*157);
+        font-size: 3.75rem;
+        margin-top: calc(var(--size-base)*2.75);
+    }
+
+    .tg-trade__cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: calc(var(--size-base)*7.5);
+    }
+
+    .tg-trade__art {
+        height: calc(var(--size-base)*125);
+        width: calc(var(--size-base)*90.75);
+    }
+
+    .tg-trade__actions {
+        margin-top: calc(var(--size-base)*10);
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .footer__actions {
+        margin-top: calc(var(--size-base)*7.75);
+        margin-left: calc(var(--size-base)*173.25);
+    }
+
+    .footer__logo {
+        margin-top: calc(var(--size-base)*12.5);
+        margin-left: calc(var(--size-base)*5.25);
+    }
+
+    .logo__footer {
+        width: calc(var(--size-base)*58.75);
+        height: calc(var(--size-base)*7.5);
+        font-size: 3rem;
+        line-height: 1em;
+        margin-top: calc(var(--size-base)*3.94);
+        margin-bottom: calc(var(--size-base)*25);
+        margin-left: calc(var(--size-base)*5.25);
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: hsla(230, 32%, 13%, 1);
+        width: 100%;
+        height: calc(var(--size-base)*52.75);
+    }
+
+    .nav-foot {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+       
+        flex-direction: none;
+        flex-wrap: none;
+        justify-content: center;
+        margin-top: calc(var(--size-base)*14);
+        margin-left: calc(var(--size-base)*14.5);
+        margin-right: calc(var(--size-base)*5.5);
+        column-gap: calc(var(--size-base)*29.25);
+        row-gap: calc(var(--size-base)*4.25);
+    }
+    
+    .nav-foot__link {
+        white-space: nowrap;
+    }
+
+    .adapt {
+        margin-top: calc(var(--size-base)*13.75);
+        grid-column: span 2;
+        position: relative;
+        left: calc(var(--size-base)*(-11));
+    }
+
 }
