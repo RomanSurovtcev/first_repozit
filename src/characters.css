@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: 'montserrat';
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 1);
+    src: url(./assets/fonts/static/Montserrat-Bold.ttf);
+   }
+  
+   @font-face {
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, 1);
+    src: url(./assets/fonts/static/Montserrat-SemiBold.ttf);
+   }
+  
+   @font-face {
+    font-family: 'montserrat';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 1);
+    src: url(./assets/fonts/static/Montserrat-Regular.ttf);
+   }
+  
+   :root {
+    --white: hsla(0, 0%, 86%, 1);
+    --violet: hsla(268, 64%, 41%, 1);
+    --yellow: hsla(28, 87%, 62%, 1);
+    --glass: hsla(0, 0%, 100%, 0.04);
+    --green-light: hsla(175, 100%, 72%, 1);
+    --green: hsla(145, 63%, 42%, 1);
+    --dark: hsla(215, 28%, 20%, 1);
+    --red: hsla(359, 97%, 64%, 1);
+    --blue: hsla(210, 93%, 57%, 1);
+    --zalivka: hsla(225, 68%, 11%, 0.6);
+    --white-font: hsla(0, 0%, 100%, 1);
+    --grad-1:hsla(210, 93%, 57%, 1);
+    --grad-2:hsla(184, 95%, 41%, 1);
+    --grad-3:hsla(210, 97%, 50%, 1);
+    --grad-4:hsla(184, 100%, 53%, 1);
+    --size-base: 4px;
+    --content-width-max: 1220px;
+}
+
+html {
+    font-size: 4px;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    background-image: url(./assets/svg/BG\ and\ elements.svg);
+    color: var(--white-font);
+}
+
+.page__char {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: var(--content-width-max);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.title__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 300px;
+    color: var( --white-font);
+    font-family: 'montserrat';
+    font-weight: 500;
+    font-size: 5rem;
+    border-radius: 10px;
+    background-image: linear-gradient(var(--grad-1), var(--grad-2));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title__btn:active {
+    background-image: linear-gradient(var(--grad-3), var(--grad-4));
+}
+
+.title__h1 {
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 1.22em;
+    margin-top: calc(var(--size-base)*32.75);
+}
