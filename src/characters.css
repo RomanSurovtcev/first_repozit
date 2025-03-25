@@ -88,5 +88,17 @@ body {
     font-weight: 700;
     font-size: 10rem;
     line-height: 1.22em;
-    margin-top: calc(var(--size-base)*32.75);
+    margin-top: calc(var(--size-base)*10);
+}
+
+.charactersList {
+    margin-top: 50px;
+}
+
+.charactersList li {
+    margin: 10px;
+}
+
+.logo {
+    margin: 50px;
 }

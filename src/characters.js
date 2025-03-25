@@ -20,6 +20,7 @@ document.getElementById('loadUsers').addEventListener('click', loadCharacters);
                 li.textContent = character.name;
                 list.appendChild(li);
             });
+            
         } catch (error) {
             list.innerHTML = `<li style="color: red;">Ошибка загрузки: ${error.message}</li>`;
         } finally {
