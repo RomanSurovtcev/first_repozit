@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./media.css">
+    <script defer src="./main.js"></script>
 </head>
 <body>
     <div class="page">
@@ -14,21 +16,23 @@
           <div class="logo">
             <img src="./assets/svg/Logo.svg" alt="Логотип" class="header__logo">
           </div>
+          <button class="header__burger-btn" id="burger"><img src="./assets/svg/Menu.svg" alt="Menu"></button>
           <nav class="nav">
             <a href="#pass-income" class="nav__link">Пассивный заработок</a>
             <a href="#publ-trade" class="nav__link">Публичный трейдинг</a>
             <a href="#tg-trade" class="nav__link">Доходы и безопасность</a>
             <a href="#footer__actions" class="nav__link">Обратная связь</a>
-            <button class="btn btn_primary">
-              <img src="./assets/svg/Profile.svg" alt="Профиль" class="logo__btn">Вход</button>
+            <a href="./characters.html" class="nav__link">Список персоонажей</a>
           </nav>
+          <button class="btn btn_primary">
+            <img src="./assets/svg/Profile.svg" alt="Профиль" class="logo__btn">Вход</button>
         </header>
         <section class="first-display">
           <div class="first-display__content">
             <h1 class="title title_h1">Инвестируй
               с лучшими крипто-трейдерами</h1>
             <p class="first-display__descr">Сервис автоматического копирования сделок
-               на криптовалютных биржах.</p>
+               на криптовалютных биржах.  Сервис абсолютно бесплатный для трейдеров</p>
             <div class="first-display__actions">
               <button class="btn btn_prima">Создать аккаунт</button>
             </div>
@@ -117,15 +121,14 @@
               <img src="./assets/svg/Right.svg" alt="Стрелка" class="strela">
               <article class="how__work">
                 <img src="./assets/svg/monetki.svg" alt="Иконка" class="icona">
-                <h4 class="work-two__card">Просто продолжай торговать на своей бирже</h4>
+                <h4 class="work-two__card">продолжай торговать на своей бирже</h4>
                 <p class="work-cardtwo__descr">Мы соберем статистику по всем сделкам и выведем результаты в списке трейдеров</p>
               </article>
               <img src="./assets/svg/Right.svg" alt="Стрелка" class="strela">
               <article class="how__work">
                 <img src="./assets/svg/mesta.svg" alt="Иконка" class="icona">
                 <h4 class="work-two__card">Стань одним из лучших трейдеров</h4>
-                <p class="work-cardtwo__descr"><span>и собирай платных</span><br>
-                  <span>подписчиков со всего мира</span></p>
+                <p class="work-cardtwo__descr"><span>и собирай платных подписчиков со всего мира</span></p>
               </article>
             </div>
             <h3 class="card-two__title">Полная инструкция по публичному трейдингу</h3>
@@ -154,9 +157,7 @@
               <article class="tg-trade__article">
                 <img src="./assets/svg/schit.svg" alt="Иконка" class="icona-two">
                 <h4 class="tg-trade__card">Безопасность</h4>
-                <p class="tg-trade__descr"><span>Ваши деньги будут лежать на</span><br> <span>вашем биржевом депозите,</span><br>
-                  <span>и доступ к нему имеете</span><br>
-                  <span>только вы</span></p>
+                <p class="tg-trade__descr"><span>Ваши деньги будут лежать на вашем биржевом депозите, и доступ к нему имеете только вы</span></p>
               </article>
               <article class="tg-trade__article">
                 <img src="./assets/svg/nastroyka.svg" alt="Иконка" class="icona-two">
@@ -181,11 +182,11 @@
     <p class="logo__footer">криптовалютная платформа для управления инвестициями.</p>
   </div>
   <nav class="nav-foot">
-    <a href="#pass-income" class="nav-foot__link">Пассивный заработок</a>
-    <a href="#publ-trade" class="nav-foot__link">Публичный трейдинг</a>
-    <a href="#tg-trade" class="nav-foot__link">Доходы и безопасность</a>
-    <a href="#footer__actions" class="nav-foot__link">Обратная связь</a>
-    <a href="#" class="nav-foot__link">Политика конфиденциальности</a>
+    <a href="#pass-income" class="nav-foot__link link__one">Пассивный заработок</a>
+    <a href="#publ-trade" class="nav-foot__link link__two">Публичный трейдинг</a>
+    <a href="#tg-trade" class="nav-foot__link link__three">Доходы и безопасность</a>
+    <a href="#footer__actions" class="nav-foot__link link__for">Обратная связь</a>
+    <a href="#" class="nav-foot__link adapt">Политика конфиденциальности</a>
   </nav>
 </footer>
 </html>
